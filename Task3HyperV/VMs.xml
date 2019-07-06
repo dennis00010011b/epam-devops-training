@@ -1,57 +1,53 @@
 <?xml version="1.0"?>
 <VMs>
-  <VM>
-	<Name>comp1</Name>
+    <VM>
+        <Name>comp1</Name>
         <SourcePath>C:\ISOs\IE11.Win7.HyperV\Virtual Machines\106A06B0-0DE9-4997-A87C-3760FFBEC837.vmcx</SourcePath>
         <IsImport>true</IsImport>
-	<Memory>536870912</Memory>
-	<VHDPath>./</VHDPath>
-	<OS>Wni7</OS>
-   </VM>
+        <Memory>536870912</Memory>
+        <VHDPath>./</VHDPath>
+        <OS>Wni7</OS>
+    </VM>
 
-
-
-   <VM>
-	<Name>comp2</Name>
+    <VM>
+        <Name>comp2</Name>
         <SourcePath>C:\ISOs\ubuntu-18.04.2-desktop-amd64.iso</SourcePath>
-	<Memory>536870912</Memory>
+        <Memory>536870912</Memory>
         <VHDPath>./</VHDPath>
-	<OS>Ubuntu18.04</OS>
-   </VM>
-  
-<VM>
-	<Name>comp3</Name>
+        <OS>Ubuntu18.04</OS>
+    </VM>
+
+    <VM>
+        <Name>comp3</Name>
         <SourcePath>C:\ISOs\IE11.Win7.HyperV\Virtual Machines\106A06B0-0DE9-4997-A87C-3760FFBEC837.vmcx</SourcePath>
         <IsImport>true</IsImport>
-	<Memory>536870912</Memory>
+        <Memory>536870912</Memory>
         <VHDPath>./</VHDPath>
-	<OS>Wni7</OS>
-   </VM>
-   
-   <VM>
-	<Name>comp4</Name>
+        <OS>Wni7</OS>
+    </VM>
+
+    <VM>
+        <Name>comp4</Name>
         <SourcePath>C:\ISOs\Win10_1809Oct_v2_English_x64.iso</SourcePath>
-	<Memory>536870912</Memory>
-	<VHDPath>./</VHDPath>
-	<OS>Wni10</OS>
-   </VM>
-
-   <VM>
-	<Name>comp5</Name>
-        <SourcePath>C:\ISOs\ubuntu-19.04-desktop-amd64.iso</SourcePath> 
-	<Memory>536870912</Memory>
-	<VHDPath>./</VHDPath>
-	<OS>Ubuntu19.04</OS>
-   </VM>
-
-   <VM>
-	<Name>server</Name>
-        <SourcePath>C:\ISOs\Windows_Server_2016_Datacenter_EVAL_en-us_14393_refresh.ISO</SourcePath>
-	<Memory>1036870912</Memory>
+        <Memory>536870912</Memory>
         <VHDPath>./</VHDPath>
-	<OS>Ubuntu19.04</OS>
-   </VM>
+        <OS>Wni10</OS>
+    </VM>
 
+    <VM>
+        <Name>comp5</Name>
+        <SourcePath>C:\ISOs\ubuntu-19.04-desktop-amd64.iso</SourcePath>
+        <Memory>536870912</Memory>
+        <VHDPath>./</VHDPath>
+        <OS>Ubuntu19.04</OS>
+    </VM>
 
+    <VM>
+        <Name>server</Name>
+        <SourcePath>C:\ISOs\Windows_Server_2016_Datacenter_EVAL_en-us_14393_refresh.ISO</SourcePath>
+        <Memory>1036870912</Memory>
+        <VHDPath>./</VHDPath>
+        <OS>Ubuntu19.04</OS>
+    </VM>
 </VMs>
 
