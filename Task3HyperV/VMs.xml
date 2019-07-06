@@ -13,7 +13,7 @@
 
    <VM>
 	<Name>comp2</Name>
-        <SourcePath>ubuntu-18.04.2-desktop-amd64.iso</SourcePath>
+        <SourcePath>C:\ISOs\ubuntu-18.04.2-desktop-amd64.iso</SourcePath>
 	<Memory>536870912</Memory>
         <VHDPath>./</VHDPath>
 	<OS>Ubuntu18.04</OS>
@@ -54,3 +54,4 @@
 
 
 </VMs>
+

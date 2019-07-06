@@ -10,16 +10,14 @@ $VHDPath = $args[3]
      NewVHDSizeBytes = 53687091200
          
  }
-echo Creating $VMName $ISO $Memory $VHDPath
+ echo Creating $VMName $ISO $Memory $VHDPath
  New-VM @VM
+
  Add-VMDvdDrive -VMName $VMName -Path $ISO
 
- #$firmw = Get-VMFirmvare $VMName
- #$firmw
- #$firmw.bootorder
- #Set-VMFirmvare -VMName $VMName-BootOrder $firmw.BootOrder[2]
- #$firmw.bootorder
-# Start-VM $VMName
+ $firmw = Get-VMFirmvare $VMName
+ Set-VMFirmvare -VMName $VMName -BootOrder $firmw.BootOrder[2]
+
 
 
 
