@@ -1,0 +1,40 @@
+# Create internal vSwitch
+new-vmswitch -SwitchName "IntSwitch" -SwitchType Internal
+
+# Create IPGateway
+new-netipaddresst -IPAddress 192.168.2.1 -PrefixLength 24 -InterfaceAlias "vEthernet (IntSwitch)"
+
+#Create NAT network
+new-netnat -name "NAT55" -InternalIPInterfaceAddressPrefix 192.168.2.0/24
+
+#Connect VMs to vSwitch
+connect-vmnetworkadapter -VMName comp1,comp4,comp5  -SwitchName IntSwitch
+
+# set manually IPAdress on each VM
+# for comp#4
+new-netipaddress 192.168.2.2 -InterfaceAlias "Ethernet"
+
+# for comp#1 (Windows7)
+$adapter = Get-WmiObject win32_networkadapterconfiguration -filter “ipenabled = ‘true'”
+$adapter.EnableStatic(“192.168.2.4”, “255.255.255.0”)
+
+#for comp#5 (Ubuntu 19.04)
+sudo ifconfig eth0 add 192.168.2.10 netmask 255.255.255.0
+
+
+# One more vSwitch
+new-vmswitch -SwitchName "IntSwitch2" -SwitchType Internal
+new-netipaddress -IPaddress 192.168.2.101 -PrefixLength 24 -InterfaceAlias "vEthernet (IntSwitch2)"
+сonnect-vmnetworkadapter -VMName comp2,comp3,server -SwitchName IntSwitch2
+
+# set manually IPAdress on each VM
+# for 'server' (Windows Server 2016)
+new-netipaddress 192.168.2.102 -PrefixLength 24 -InterfaceAlias "Ethernet"
+
+#for comp#2 (Ubuntu 18.04)
+sudo ifconfig eth0 add 192.168.2.104 netmask 255.255.255.0
+
+# for comp#3 (Windows7)
+$adapter = Get-WmiObject win32_networkadapterconfiguration -filter “ipenabled = ‘true'”
+$adapter.EnableStatic(“192.168.2.103”, “255.255.255.0”)
+
