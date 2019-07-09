@@ -1,0 +1,1 @@
+Add-DHCPServerV4Scope -Name Pool1 -StartRange 192.168.2.1 -EndRange 192.168.2.200 -SubnetMask 255.255.255.0 -State Active
