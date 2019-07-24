@@ -1,6 +1,7 @@
 package httpserver;
 
 public class ResponseStatus {
+  public static final String CONTINUE = "100 Continue";
   public static final String OK = "200 OK";
   public static final String CREATED = "201 Created";
   public static final String ACCEPTED = "202 Accepted";
