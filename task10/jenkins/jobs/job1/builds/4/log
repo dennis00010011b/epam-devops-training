@@ -1,0 +1,10 @@
+Started by user [8mha:////4AzzxmaSjqMyAtDvjhlvpBaeeOTn/tbY1UVhcNcv2UmEAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/job1
+[job1] $ /bin/sh -xe /tmp/jenkins6391189771740319273.sh
++ echo It is my first experience with Jenkins
+It is my first experience with Jenkins
++ cd /Users/dennis/temp
+/tmp/jenkins6391189771740319273.sh: 3: cd: can't cd to /Users/dennis/temp
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

@@ -1,0 +1,15 @@
+Started by user [8mha:////4AzzxmaSjqMyAtDvjhlvpBaeeOTn/tbY1UVhcNcv2UmEAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/job1
+[job1] $ /bin/sh -xe /tmp/jenkins5277277233236007215.sh
++ echo Build step#1
+Build step#1
++ echo It is my first experience with Jenkins
+It is my first experience with Jenkins
++ echo It is my first experience with Jenkins
+[job1] $ /bin/sh -xe /tmp/jenkins5434196684527252684.sh
++ echo Build step#2
+Build step#2
++ cp ./result.log ../../result.log
+Archiving artifacts
+Finished: SUCCESS
