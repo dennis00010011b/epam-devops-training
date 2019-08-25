@@ -17,7 +17,7 @@
           <string>refs/remotes/origin/master</string>
           <hudson.plugins.git.util.Build>
             <marked plugin="git-client@2.8.0">
-              <sha1>65c7a53399000bb06a394c3b535fc85b78024c18</sha1>
+              <sha1>5bf25058c242313851c0b10cf8468f96d0e3fb2c</sha1>
               <branches class="list">
                 <hudson.plugins.git.Branch>
                   <sha1 reference="../../../sha1"/>
@@ -26,13 +26,13 @@
               </branches>
             </marked>
             <revision reference="../marked"/>
-            <hudsonBuildNumber>5</hudsonBuildNumber>
+            <hudsonBuildNumber>9</hudsonBuildNumber>
           </hudson.plugins.git.util.Build>
         </entry>
       </buildsByBranchName>
       <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
       <remoteUrls>
-        <string>https://github.com/dennis00010011b/simpleweb</string>
+        <string>https://github.com/dennis00010011b/webdriver-testng-archetype.git</string>
       </remoteUrls>
     </hudson.plugins.git.util.BuildData>
     <hudson.plugins.git.GitTagAction plugin="git@3.12.0">
@@ -42,19 +42,19 @@
           <list/>
         </entry>
       </tags>
-      <ws>/var/jenkins_home/workspace/testMaven</ws>
+      <ws>/var/jenkins_home/workspace/tryMvn</ws>
     </hudson.plugins.git.GitTagAction>
     <hudson.scm.SCMRevisionState_-None/>
   </actions>
-  <queueId>16</queueId>
-  <timestamp>1566284626119</timestamp>
-  <startTime>1566284626140</startTime>
+  <queueId>31</queueId>
+  <timestamp>1566538066450</timestamp>
+  <startTime>1566538066469</startTime>
   <result>FAILURE</result>
-  <duration>3028</duration>
+  <duration>2925</duration>
   <charset>UTF-8</charset>
   <keepLog>false</keepLog>
   <builtOn></builtOn>
-  <workspace>/var/jenkins_home/workspace/testMaven</workspace>
+  <workspace>/var/jenkins_home/workspace/tryMvn</workspace>
   <hudsonVersion>2.190</hudsonVersion>
   <scm class="hudson.plugins.git.GitChangeLogParser" plugin="git@3.12.0">
     <authorOrCommitter>false</authorOrCommitter>

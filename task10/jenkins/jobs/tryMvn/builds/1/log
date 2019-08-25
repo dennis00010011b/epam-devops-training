@@ -1,0 +1,25 @@
+Started by user [8mha:////4AzzxmaSjqMyAtDvjhlvpBaeeOTn/tbY1UVhcNcv2UmEAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/tryMvn
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/dennis00010011b/epam-devops-training
+ > git init /var/jenkins_home/workspace/tryMvn/task9/Devuser # timeout=10
+Fetching upstream changes from https://github.com/dennis00010011b/epam-devops-training
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/dennis00010011b/epam-devops-training +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/dennis00010011b/epam-devops-training # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/dennis00010011b/epam-devops-training # timeout=10
+Fetching upstream changes from https://github.com/dennis00010011b/epam-devops-training
+ > git fetch --tags --progress https://github.com/dennis00010011b/epam-devops-training +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 62246b446dc74a53146016f15acad2e77401e180 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 62246b446dc74a53146016f15acad2e77401e180
+Commit message: "qwe"
+First time build. Skipping changelog.
+FATAL: Couldn’t find any executable in null
+Build step 'Invoke top-level Maven targets' marked build as failure
+Finished: FAILURE

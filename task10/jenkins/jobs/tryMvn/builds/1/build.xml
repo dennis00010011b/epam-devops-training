@@ -17,7 +17,7 @@
           <string>refs/remotes/origin/master</string>
           <hudson.plugins.git.util.Build>
             <marked plugin="git-client@2.8.0">
-              <sha1>65c7a53399000bb06a394c3b535fc85b78024c18</sha1>
+              <sha1>62246b446dc74a53146016f15acad2e77401e180</sha1>
               <branches class="list">
                 <hudson.plugins.git.Branch>
                   <sha1 reference="../../../sha1"/>
@@ -26,13 +26,13 @@
               </branches>
             </marked>
             <revision reference="../marked"/>
-            <hudsonBuildNumber>4</hudsonBuildNumber>
+            <hudsonBuildNumber>1</hudsonBuildNumber>
           </hudson.plugins.git.util.Build>
         </entry>
       </buildsByBranchName>
       <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
       <remoteUrls>
-        <string>https://github.com/dennis00010011b/simpleweb</string>
+        <string>https://github.com/dennis00010011b/epam-devops-training</string>
       </remoteUrls>
     </hudson.plugins.git.util.BuildData>
     <hudson.plugins.git.GitTagAction plugin="git@3.12.0">
@@ -42,19 +42,19 @@
           <list/>
         </entry>
       </tags>
-      <ws>/var/jenkins_home/workspace/testMaven</ws>
+      <ws>/var/jenkins_home/workspace/tryMvn</ws>
     </hudson.plugins.git.GitTagAction>
     <hudson.scm.SCMRevisionState_-None/>
   </actions>
-  <queueId>15</queueId>
-  <timestamp>1566284481066</timestamp>
-  <startTime>1566284481076</startTime>
+  <queueId>23</queueId>
+  <timestamp>1566535685296</timestamp>
+  <startTime>1566535685307</startTime>
   <result>FAILURE</result>
-  <duration>1978</duration>
+  <duration>87459</duration>
   <charset>UTF-8</charset>
   <keepLog>false</keepLog>
   <builtOn></builtOn>
-  <workspace>/var/jenkins_home/workspace/testMaven</workspace>
+  <workspace>/var/jenkins_home/workspace/tryMvn</workspace>
   <hudsonVersion>2.190</hudsonVersion>
   <scm class="hudson.plugins.git.GitChangeLogParser" plugin="git@3.12.0">
     <authorOrCommitter>false</authorOrCommitter>

@@ -17,7 +17,7 @@
     <property name="user.country" value="RU"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib"/>
-    <property name="sun.java.command" value="/Users/dennis/epam/devops/epam-devops-training/task9/Devuser/target/surefire/surefirebooter1475786819771054255.jar /Users/dennis/epam/devops/epam-devops-training/task9/Devuser/target/surefire 2019-08-18T01-47-27_131-jvmRun1 surefire201697417504508996tmp surefire_03467439258030120701tmp"/>
+    <property name="sun.java.command" value="/Users/dennis/epam/devops/epam-devops-training/task9/Devuser/target/surefire/surefirebooter6653015430988521834.jar /Users/dennis/epam/devops/epam-devops-training/task9/Devuser/target/surefire 2019-08-23T22-36-29_964-jvmRun1 surefire2493397800357731958tmp surefire_0546168777113823710tmp"/>
     <property name="surefire.test.class.path" value="/Users/dennis/epam/devops/epam-devops-training/task9/Devuser/target/test-classes:/Users/dennis/epam/devops/epam-devops-training/task9/Devuser/target/classes:/Users/dennis/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/dennis/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/dennis"/>
@@ -30,7 +30,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/dennis/epam/devops/epam-devops-training/task9/Devuser/target/surefire/surefirebooter1475786819771054255.jar"/>
+    <property name="surefire.real.class.path" value="/Users/dennis/epam/devops/epam-devops-training/task9/Devuser/target/surefire/surefirebooter6653015430988521834.jar"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="1.8.0_201-b09"/>
@@ -58,6 +58,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testApp" classname="dstu.devuser.AppTest" time="0.001"/>
-  <testcase name="testAssert" classname="dstu.devuser.AppTest" time="0.002"/>
+  <testcase name="testApp" classname="dstu.devuser.AppTest" time="0.002"/>
+  <testcase name="testAssert" classname="dstu.devuser.AppTest" time="0.001"/>
 </testsuite>

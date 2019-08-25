@@ -1,0 +1,28 @@
+---
+  persons:
+    - person: &id001
+        lastName: Tikhomirov
+        firstName: Dennis
+        group: Devops_Summer_2019
+        email: dennistikhomirov@gmail.com
+        languages:
+          english: c2
+          chinese: b1
+        programming:
+          paskal: 8
+          cobol: 4
+
+    - person: &id002
+        lastName: Doe
+        firstName: John
+        group: Cementry_1977
+        email: john_doe@gmail.com
+        languages:
+          english: c2
+          chinese: b1
+        programming:
+          paskal: 8
+          cobol: 4
+---
+  hired: *id001
+  died: *id002
